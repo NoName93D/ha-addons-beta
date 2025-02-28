@@ -1,4 +1,4 @@
-name: 'Addon-HyperHDR'
+name: 'Addon-HyperHDR-BETA'
 
 # Controls when the action will run
 on: [ workflow_dispatch ]
