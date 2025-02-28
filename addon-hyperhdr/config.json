@@ -1,7 +1,7 @@
 {
-  "name": "HyperHDR",
-  "version": "20.0.0.0",
-  "slug": "hyperhdr",
+  "name": "HyperHDR BETA",
+  "version": "21.0.0.0beta2",
+  "slug": "hyperhdrbeta",
   "description": "Open source ambient lighting implementation based on video and audio streams analysis. Includes real-time HDR tone mapping and multi-threading.",
   "url": "https://github.com/awawa-dev/HyperHDR",
   "arch": [
@@ -30,7 +30,7 @@
   "map": [
     "config:rw"
   ],
-  "image": "noname93d/hyperhdr-addon-{arch}",
+  "image": "noname93d/hyperhdr-addon-beta-{arch}",
   "options": {},
   "schema": {},
   "privileged": [
