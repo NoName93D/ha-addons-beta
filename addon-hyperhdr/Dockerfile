@@ -18,7 +18,9 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install --no-ins
 COPY run.sh /
 RUN chmod a+x /run.sh
 
-RUN wget -q "${DOWNLOAD_URL}/v${BUILD_VERSION}/HyperHDR-${BUILD_VERSION}-Linux-$(uname -m).tar.gz" -O - | tar -xvz -C /usr
+RUN wget "${DOWNLOAD_URL}/v${BUILD_VERSION}/HyperHDR-${BUILD_VERSION}-Linux-$(uname -m).deb" -O "HyperHDR-${BUILD_VERSION}-Linux-$(uname -m).deb"
+RUN dpkg -i "HyperHDR-${BUILD_VERSION}-Linux-$(uname -m).deb"
+RUN rm -f "HyperHDR-${BUILD_VERSION}-Linux-$(uname -m).deb"
 
 VOLUME /config
 EXPOSE 8090 8092 19333 19400 19444 19445
