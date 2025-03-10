@@ -1,5 +1,10 @@
 ## What’s changed in this Plugin.
 
+- ⬆️ Update HyperHDR from 21.0.0.0beta2 to 21.0.0.0.
+- ⬆️ Changed few documentation and details.
+
+## What’s changed in last version of this Plugin.
+
 - ⬆️ Update HyperHDR from 20.0.0.0 to 21.0.0.0beta2.
 - ⬆️ Changed Docker image location.
 - ⬆️ Changed few documentation and details.
