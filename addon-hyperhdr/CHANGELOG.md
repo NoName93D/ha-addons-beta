@@ -7,6 +7,7 @@
 
 - ⬆️ Update HyperHDR from 20.0.0.0 to 21.0.0.0beta2.
 - ⬆️ Changed Docker image location.
+- ⬆️ Changed installation method.
 - ⬆️ Changed few documentation and details.
 
 
